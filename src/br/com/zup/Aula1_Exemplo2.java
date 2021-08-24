@@ -15,6 +15,9 @@ public class Aula1_Exemplo2 {
         // Criando operação de multiplicação
         int resultadoDaMultiplicação = numero1 * numero2;
 
+        // Criando operação de divisão
+        int resultadoDaDivisão = numero1 / numero2;
+
         // Exibindo a operação de soma para o usuário
         System.out.println("O resultado da soma é " + resultadoDaSoma);
 
@@ -23,5 +26,8 @@ public class Aula1_Exemplo2 {
 
         // Exibindo a operação da multiplicação para o usuário
         System.out.println("O resultado da multiplicação é " + resultadoDaMultiplicação);
+
+        // Exibindo a operação da divisão para o usuário
+        System.out.println("O resultado da divisão é " + resultadoDaDivisão);
     }
 }
