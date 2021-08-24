@@ -12,10 +12,16 @@ public class Aula1_Exemplo2 {
         // Criando operação de subtração
         int resultadoDaSubtração = numero1 - numero2;
 
+        // Criando operação de multiplicação
+        int resultadoDaMultiplicação = numero1 * numero2;
+
         // Exibindo a operação de soma para o usuário
         System.out.println("O resultado da soma é " + resultadoDaSoma);
 
         // Exibindo a operação da subtração para o usuário
         System.out.println("O resultado da subtração é " + resultadoDaSubtração);
+
+        // Exibindo a operação da multiplicação para o usuário
+        System.out.println("O resultado da multiplicação é " + resultadoDaMultiplicação);
     }
 }
