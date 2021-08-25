@@ -1,8 +1,10 @@
 package br.com.zup;
 
+import java.util.Scanner;
+
 public class Aula1_Exercicio5 {
     public static void main(String[] args) {
-        Sca
+        Scanner leitor = new Scanner(System)
 
         // Variável com a temperatura em fahrenheit
         int temperaturaEmFahrenheit = 50;
