@@ -4,10 +4,13 @@ public class Aula1_Exercicio5 {
     public static void main(String[] args) {
 
         // Variável com a temperatura em fahrenheit
-        double temperaturaEmFahrenheit = 50;
+        int temperaturaEmFahrenheit = 50;
 
         // Variável que faz a conversão de graus fahrenheit em celsius
-        double conversao = (32 − 32) * 5/9 = 0;
+        int conversao = (temperaturaEmFahrenheit - 32) * 5/9;
+
+        // Exibir para o usuário a conversão das temperaturas
+        System.out.println(temperaturaEmFahrenheit + "°F equivalem a " + conversao + "°C");
 
 
     }
