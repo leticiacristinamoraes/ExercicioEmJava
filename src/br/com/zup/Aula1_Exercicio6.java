@@ -15,5 +15,9 @@ public class Aula1_Exercicio6 {
         double inss = 0.08 * salarioBruto;
         double sindicato = 0.05 * salarioBruto;
 
+        // Soma dos descontos do salário
+        double descontos = impostoDeRenda+inss+sindicato;
+        double salarioLiquido = salarioBruto - descontos;
+
     }
 }
