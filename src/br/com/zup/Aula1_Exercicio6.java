@@ -1,11 +1,15 @@
 package br.com.zup;
 
+import java.util.Scanner;
+
 public class Aula1_Exercicio6 {
     public static void main(String[] args) {
 
+        Scanner leitor = new Scanner(System.in);
+
         // Variáveis com o valor das horas trabalhas e o número de horas trabalhadas
-        double valorHoraTrabalhada = 55.20;
-        double horasTrabalhadas = 180;
+        double valorHoraTrabalhada = leitor.nextDouble();
+        double horasTrabalhadas = leitor.nextDouble();
 
         // Valor do salário bruto
         double salarioBruto = valorHoraTrabalhada * horasTrabalhadas;
@@ -18,6 +22,8 @@ public class Aula1_Exercicio6 {
         // Soma dos descontos do salário
         double descontos = impostoDeRenda+inss+sindicato;
         double salarioLiquido = salarioBruto - descontos;
+
+
 
         // Exibir ao usuário o valor do salário bruto, valor pago ao inss, valor pago ao sindicato e o salário líquido
         System.out.println("Seu salário bruto é de R$" + salarioBruto + " esse mês.");
