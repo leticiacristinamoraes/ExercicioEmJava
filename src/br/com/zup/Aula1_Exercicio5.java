@@ -5,5 +5,10 @@ public class Aula1_Exercicio5 {
 
         // Variável com a temperatura em fahrenheit
         double temperaturaEmFahrenheit = 50;
+
+        // Variável que faz a conversão de graus fahrenheit em celsius
+        double conversao = (32 − 32) * 5/9 = 0;
+
+
     }
 }
