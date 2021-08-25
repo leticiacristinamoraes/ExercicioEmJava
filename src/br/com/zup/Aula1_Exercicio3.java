@@ -7,5 +7,8 @@ public class Aula1_Exercicio3 {
         float metros = 4.7F;
         float metrosEmCentímetros = 1000;
 
+        // Variável que faça a conversão de metros em centímetros
+        float conversao = metros * metrosEmCentímetros;
+
     }
 }
