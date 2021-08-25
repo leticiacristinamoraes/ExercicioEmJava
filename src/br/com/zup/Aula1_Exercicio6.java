@@ -7,5 +7,8 @@ public class Aula1_Exercicio6 {
         double valorHoraTrabalhada = 55.20;
         double horasTrabalhadas = 180;
 
+        // Valor do salário bruto
+        double salarioBruto = valorHoraTrabalhada * horasTrabalhadas;
+
     }
 }
