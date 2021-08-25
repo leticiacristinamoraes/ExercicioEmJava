@@ -8,6 +8,10 @@ public class Aula1_Exercicio2 {
         float nota3 = 9.2F;
         float nota4 = 9;
 
+        // Criando variáveis para somar as notas bimestrais e fazer a média aritmética
+        float somaDasNotas = nota1 + nota2 +nota3 + nota4;
+        float mediaDasNotas = somaDasNotas/4;
+
 
     }
 }
