@@ -12,6 +12,9 @@ public class Aula1_Exercicio2 {
         float somaDasNotas = nota1 + nota2 +nota3 + nota4;
         float mediaDasNotas = somaDasNotas/4;
 
+        // Exibir a mensagem para o usuário sobre a média aritmética
+        System.out.println("Olá, sua média nesse bimestre é " + mediaDasNotas + " Continue se dedicando em seus estudos!");
+
 
     }
 }
