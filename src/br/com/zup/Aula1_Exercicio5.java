@@ -2,6 +2,7 @@ package br.com.zup;
 
 public class Aula1_Exercicio5 {
     public static void main(String[] args) {
+        Sca
 
         // Variável com a temperatura em fahrenheit
         int temperaturaEmFahrenheit = 50;
